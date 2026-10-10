@@ -7,4 +7,4 @@ for value in range(len(abc)):
     if abc[value] != "e" and abc[value] != "q":
         solucion = solucion + abc[value]
 
-print("{}".format(solucion))
+print("{}".format(solucion), end="")
