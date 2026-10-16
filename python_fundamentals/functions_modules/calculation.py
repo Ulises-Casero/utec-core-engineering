@@ -6,8 +6,8 @@ if __name__ == "__main__":
     a = 10
     b = 5
 
-    print(suma(a, b))
-    print(resta(a, b))
-    print(multiplicacion(a, b))
-    print(division(a, b))
+    print("{}".format(suma(a, b)))
+    print("{}".format(resta(a, b)))
+    print("{}".format(multiplicacion(a, b)))
+    print("{}".format(division(a, b)))
     
