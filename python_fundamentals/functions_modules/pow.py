@@ -8,6 +8,5 @@ def pow(a, b):
 
     if b < 0:
         return 1 / result
-         
-    return result
 
+    return result
