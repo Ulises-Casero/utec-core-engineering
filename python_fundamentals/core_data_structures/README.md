@@ -1,0 +1,1 @@
+Este directorio se utilizara para realizar las tareas del proyecto Python - Estructuras de datos básicas
