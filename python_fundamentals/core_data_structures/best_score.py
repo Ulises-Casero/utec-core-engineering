@@ -11,6 +11,5 @@ def best_score(a_dictionary):
         if best_value is None or value > best_value:
             best_key = key
             best_value = value
-        
-        
+                
     return best_key
