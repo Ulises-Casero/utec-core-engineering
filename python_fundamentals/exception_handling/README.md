@@ -1,0 +1,1 @@
+Este directorio sera usado para realizar las tareas correspondientes al modulo Python - Manejo de excepciones
