@@ -1,0 +1,1 @@
+Este directorio sera utilizado para realizar las tareas del proyecto Python - Manejo de archivos
