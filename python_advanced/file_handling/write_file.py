@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """""Módulo con función escribir una cadena en un archivo de texto."""
 
+
 def write_file(filename="", text=""):
     """Inserta una cadena en un archivo."""
     caracteres = len(text)
