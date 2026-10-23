@@ -6,6 +6,6 @@ def safe_print_division(a, b):
         resultado = a / b
     except (TypeError, ZeroDivisionError):
         resultado = None
-        print("Inside result: {}".format(resultado))
     finally:
+        print("Inside result: {}".format(resultado))
         print("{:d} / {:d} = {}".format(a,b,resultado))
