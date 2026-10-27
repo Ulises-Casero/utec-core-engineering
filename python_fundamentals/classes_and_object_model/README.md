@@ -1,0 +1,1 @@
+Este directorio sera utilizado para realizar las tareas del modulo Python - Clases y modelo de objetos
