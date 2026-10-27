@@ -5,7 +5,7 @@
 class Square():
     """Declaración de la clase Square."""
 
-    def __init__(self, size=0, position = (0, 0)):
+    def __init__(self, size = 0, position = (0, 0)):
         self.size = size
         self.position = position
 
@@ -14,7 +14,7 @@ class Square():
         return self.__size
 
     @size.setter
-    def size(self, size=0):
+    def size(self, size = 0):
         if type(size) is not int:
             raise TypeError("size must be an integer")
         elif size < 0:
