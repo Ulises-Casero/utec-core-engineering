@@ -31,3 +31,8 @@ class Square():
             for _ in range((self.size + 1)):
                 for _ in range((self.size + 1)):
                     print("#", end="")
+                print()
+
+
+cuadrado = Square(5)
+cuadrado.my_print()
