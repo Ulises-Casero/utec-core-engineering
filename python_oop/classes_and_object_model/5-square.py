@@ -32,7 +32,3 @@ class Square():
                 for _ in range(self.size):
                     print("#", end="")
                 print()
-
-
-cuadrado = Square(5)
-cuadrado.my_print()
