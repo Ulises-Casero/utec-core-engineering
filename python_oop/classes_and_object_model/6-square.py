@@ -25,14 +25,14 @@ class Square():
     @property
     def position(self):
         return self.__position
-        
+
     @position.setter
     def position(self, position=(0, 0)):
         if (
             not isinstance(position, tuple)
             or len(position) != 2
             or any(
-                not isinstance(x, int) or x < 0 
+                not isinstance(x, int) or x < 0
                 for x in position
             )
         ):
@@ -52,7 +52,7 @@ class Square():
 
             for _ in range(self.size):
                 print(" " * self.position[0] + "#" * self.size)
-    
+
     def __str__(self):
         if self.size == 0:
             return ""
