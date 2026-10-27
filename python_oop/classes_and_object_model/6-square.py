@@ -59,12 +59,3 @@ class Square():
             rows.append(" " * self.position[0] + "#" * self.size)
 
         return "\n".join(rows)
-
-
-my_square = Square(5, (4, 1))
-
-my_square.my_print()
-
-print("="*10)
-
-print(my_square)
