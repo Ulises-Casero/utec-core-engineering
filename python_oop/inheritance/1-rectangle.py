@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-BaseGeometry = __import__('base_geometry').BaseGeometry
 """Este archivo contendra todo lo vinculado a la clase rectangle."""
 
+
+BaseGeometry = __import__('base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
     """Representa un rectangulo."""
