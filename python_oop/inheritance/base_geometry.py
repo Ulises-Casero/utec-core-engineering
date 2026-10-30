@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""El propósito de esta clase es proporcionar funcionalidad compartida que las subclases puedan reutilizar"""
+"""Esta clase implementara metos para heredar"""
 
 
 class BaseGeometry():
