@@ -2,7 +2,7 @@
 """Este archivo contendra todo lo vinculado a la clase Square."""
 
 
-Rectangle = __import__('1-square').Rectangle
+Rectangle = __import__('2-rectangle').Rectangle
 
 
 class Square(Rectangle):
